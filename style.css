@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-shadow: none;
+    padding: 0px;
+    font-family: 'specimen', Outfit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.first-container {
+    padding: 15px 15px 25px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.first-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.first-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.first-container p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
